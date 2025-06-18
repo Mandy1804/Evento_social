@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Evento Social</title>
+  <link rel="stylesheet" href="../prova/css/style.css">
+</head>
+<body>
+
+  <div class="card">
+    <h2>CADASTRO EVENTO</h2>
+
+    <input type="text" id="nome" placeholder="Nome">
+    <input type="email" id="email" placeholder="Email">
+
+    <label for="tipo">Selecione um tipo</label>
+    <select id="tipo">
+      <option value="Educação">Educação</option>
+      <option value="Meio Ambiente">Meio Ambiente</option>
+      <option value="Saude">Saude</option>
+      <option value="Logistica">Logistica</option>
+    </select>
+
+    <input type="number" id="quantidade" placeholder="Número de eventos">
+
+    <p>Possui disponibilidade nos finais de semana?</p>
+    <label><input type="checkbox" id="disponivelFds"> Sim</label>
+
+    <button onclick="adicionarAtividade()">Registrar Voluntário</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Tipo</th>
+        <th>Quantidade</th>
+        <th>Disponível FDS?</th>
+        <th>Ações</th>
+        <th>Nível de Envolvimento</th>
+      </tr>
+    </thead>
+    <tbody id="tabelaAtividade"></tbody>
+  </table>
+
+  <script src="../prova/js/script.js"></script>
+</body>
+</html>

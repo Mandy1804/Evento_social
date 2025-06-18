@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(250, 212, 247);
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(252, 156, 252);
+    width: 300px;
+    border-radius: 25px;
+    padding: 30px;
+    gap: 10px;
+    border: solid 10px hsl(276, 73%, 88%);
+  }
+  
+  .card p {
+    margin: 0;
+  }
+  
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    text-align: left;
+  }
+  
+  button {
+    border: solid 5px hsl(286, 36%, 45%);
+    border-radius: 10px;
+  }
+  
